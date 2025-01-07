@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/home.css">
     <title>Home</title>
 </head>
 <body>
     <header>
         <nav>
-            <div>
+            <div class="logo">
                 <a href="home.html"><img src="images/logo.png" alt="Logo"></a>
             </div>
-            <div>
+            <div class="links">
                  <ul>
-                    <li><img src="images/homeicon.png" alt="home icon"><a href="home.html">Home</a></li>
-                    <li><img src="images/eduicon.png" alt="education icon"><a href="education.html">Education</a></li>
-                    <li><img src="images/hobbiesicon.png" alt="baking icon"><a href="hobbies.html">Hobbies</a></li>
-                    <li><img src="images/cvicon.png" alt="cv icon"><a href="cv.html">CV</a></li>
-                    <li><img src="images/interestsicon.png" alt="plane icon"><a href="interests.html">Interests</a></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="hobbies.html">HOBBIES</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="interests.html">INTERESTS</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div>
+        <div class="intro">
             <img src="images/home1.jfif" alt="intro image">
             <p>Hello! I’m Semer Nuru Ibrahim, a passionate software engineering student at AAiT in Addis Ababa, Ethiopia. 
                 I recently ventured into web development, where I discovered an interest for coding and design. 
@@ -31,47 +32,63 @@
                 I’m always excited to collaborate on innovative projects and bring creative ideas to life.</p>
         </div>
 
-        <div>
+        <div class="more-about-me">
             <h2>More About Me</h2>
-            <div>
-                <div>
+            <div class="container">
+                <div class="carousel-item">
                     <img src="images/hiking.jfif" alt="Hiking image">
                     <p>Hiking brings me immense joy and satisfaction. Especially spontaneous ones!</p>
                 </div>
-                <div>
+                <div class="carousel-item">
                     <img src="images/bencarson.jfif" alt="Gifted Hands book image">
                     <p>Gifted Hands was an intriguing read. Ben Carson is just inspirational.</p>
                 </div>
-                <div>
+                <div class="carousel-item">
                     <img src="images/divergent1.jfif" alt="Divergent movie image">
                     <p>All time favourite movie. Divergent is always a good watch.</p>
                 </div>
-                <div>
+                <div class="carousel-item">
                     <img src="images/basketball.jfif" alt="Basketball court image">
                     <p>Basketball on a breezy day rejuvenates me. It's always a blast playing with my buddies.</p>
                 </div>
-                <div>
+                <div class="carousel-item">
                     <img src="images/clashofclan.jfif" alt="gaming image">
                     <p>Gaming has always been a big part of my childhood. CR and COC being all time favourites of mine.</p>
                 </div>
             </div>
+            <div class="carousel-controls">
+                <span id="prevBtn" class="arrow left-arrow">&#9664;</span> 
+                <span id="nextBtn" class="arrow right-arrow">&#9654;</span>
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide-to="0"></span>
+                <span class="indicator" data-slide-to="1"></span>
+                <span class="indicator" data-slide-to="2"></span>
+                <span class="indicator" data-slide-to="3"></span>
+                <span class="indicator" data-slide-to="4"></span>
+                <span class="indicator" data-slide-to="5"></span>
+            </div>
         </div>
     </main>
     
-    <footer>
-        <div>
-            <p>Contact <a href="mailto:semer98@gmail.com">semer98@gmail.com</a></p>
-        </div>
-        <div>
-            <a href="home.html"><img src="images/logo.png" alt="Logo"></a>
-        </div>
-        <div>
-            <p>Social Media</p>
-            <a href="https://www.instagram.com/semerr.n/profilecard/?igsh=MXdiY3k0MWkzMG9n" ><img src="images/Instagram.webp" alt="Instagram Logo"></a>
-            <a href="https://www.snapchat.com/add/semernuru22?share_id=nTu8dZlmJRA&locale=en-GB" ><img src="images/snapchat.webp" alt="Snapchat Logo"></a>
-            <a href="https://www.pinterest.com/semer98/?invite_code=e4334ac4da084427a56982c47c799614&sender=735916532768460749" ><img src="images/Pinterest.webp" alt="Pinterest Logo"></a>
-            <a href="https://www.linkedin.com/in/semer-nuru?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><img src="images/Linkedin.webp" alt="Linkedin Logo"></a>
+    <footer >
+        <div class="footer-content">
+            <div class="contact">
+                <p id="text">CONTACT</p>
+                <p><a href="mailto:semer98@gmail.com">semer98@gmail.com</a></p>
+            </div>
+            <div class="logo">
+                <a href="home.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <div class="social-media">
+                <p>SOCIAL MEDIA</p>
+                <a href="https://www.instagram.com/semerr.n/profilecard/?igsh=MXdiY3k0MWkzMG9n" ><img src="images/Instagram.webp" alt="Instagram Logo"></a>
+                <a href="https://www.snapchat.com/add/semernuru22?share_id=nTu8dZlmJRA&locale=en-GB" ><img src="images/snapchat.webp" alt="Snapchat Logo"></a>
+                <a href="https://www.pinterest.com/semer98/?invite_code=e4334ac4da084427a56982c47c799614&sender=735916532768460749" ><img src="images/Pinterest.webp" alt="Pinterest Logo"></a>
+                <a href="https://www.linkedin.com/in/semer-nuru?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><img src="images/Linkedin.webp" alt="Linkedin Logo"></a>
+            </div>
         </div>
     </footer>
+    <script src="javascript/home.js"></script>
 </body>
 </html>

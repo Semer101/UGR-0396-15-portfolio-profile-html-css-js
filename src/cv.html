@@ -3,39 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/cv.css">
     <title>CV</title>
 </head>
 <body>
     <header>
         <nav>
-            <div>
+            <div class="logo">
                 <a href="home.html"><img src="images/logo.png" alt="Logo"></a>
             </div>
-            <div>
+            <div class="links">
                  <ul>
-                    <li><img src="images/homeicon.png" alt="home icon"><a href="home.html">Home</a></li>
-                    <li><img src="images/eduicon.png" alt="education icon"><a href="education.html">Education</a></li>
-                    <li><img src="images/hobbiesicon.png" alt="baking icon"><a href="hobbies.html">Hobbies</a></li>
-                    <li><img src="images/cvicon.png" alt="cv icon"><a href="cv.html">CV</a></li>
-                    <li><img src="images/interestsicon.png" alt="plane icon"><a href="interests.html">Interests</a></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="hobbies.html">HOBBIES</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="interests.html">INTERESTS</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div>
+        <H1 id="subheading">Semer Nuru Ibrahim</H1>
+        <div class="section1">
             <img src="images/profilepic.jpg" alt="Profile Picture">
-            <div>
-                <H1>Semer Nuru Ibrahim</H1>
-                <ul>
-                    <li>+251976578508</li>
-                    <li><a href="mailto:semer98@gmail.com">semer98@gmail.com</a></li>
-                    <li>Addis Ababa, Ethiopia</li>
-                    <li><a href="home.html">my website</a></li>
-                </ul>
+            
+            <div class="columns">
+                <div class="column">
+                    <ul>
+                        <li>+251976578508</li>
+                        <li><a href="mailto:semer98@gmail.com">semer98@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li>Addis Ababa, Ethiopia</li>
+                        <li><a href="home.html">my website</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div>
+        <hr>
+        <div class="paragraphs">
             <h2>Profile</h2>
             <p>I'm a hardworking person with passion for learning and personal growth. 
                 My varied educational background has helped me develop skills in creativity, problem-solving, and communication. 
@@ -43,7 +52,8 @@
                 where I enjoy using my technical and people skills on innovative projects and teamwork. 
                 I'm excited to apply my knowledge to real-world challenges and strive for excellence in everything I do.</p>
         </div>
-        <div>
+        <hr>
+        <div class="paragraphs">
             <h2>Skills</h2>
             <p>I am proficient in a range of programming languages and technologies, 
                 including HTML, CSS, JavaScript, MySQL, Python, and Java. 
@@ -52,13 +62,15 @@
                 ensuring effective collaboration and high-quality results.
             </p>
         </div>
-        <div>
+        <hr>
+        <div class="paragraphs">
             <h2>Education</h2>
             <p>Primary Education 2007-2015 at School of Tomorrow.
                Secondary Education 2015-2022 at Greek Community School.
                Undergraduate Degree 2022-2027 at AAiT.</p>
         </div>
-        <div>
+        <hr>
+        <div class="paragraphs">
             <h2>Experiences</h2>
             <p>I had the opportunity to work with Cisco during my networking course, which provided me with a solid foundation in network infrastructure and management. 
                 For my database course, I extensively used MySQL, gaining hands-on experience in database creation, manipulation, and management. 
@@ -67,18 +79,21 @@
         </div>
     </main>
     <footer>
-        <div>
-            <p>Contact <a href="mailto:semer98@gmail.com">semer98@gmail.com</a> </p>
-        </div>
-        <div>
-            <a href="home.html"><img src="images/logo.png" alt="Logo"></a>
-        </div>
-        <div>
-            <p>Social Media</p>
-            <a href="https://www.instagram.com/semerr.n/profilecard/?igsh=MXdiY3k0MWkzMG9n" ><img src="images/Instagram.webp" alt="Instagram Logo"></a>
-            <a href="https://www.snapchat.com/add/semernuru22?share_id=nTu8dZlmJRA&locale=en-GB" ><img src="images/snapchat.webp" alt="Snapchat Logo"></a>
-            <a href="https://www.pinterest.com/semer98/?invite_code=e4334ac4da084427a56982c47c799614&sender=735916532768460749" ><img src="images/Pinterest.webp" alt="Pinterest Logo"></a>
-            <a href="https://www.linkedin.com/in/semer-nuru?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_appk" ><img src="images/Linkedin.webp" alt="Linkedin Logo"></a>
+        <div class="footer-content">
+            <div class="contact">
+                <p id="text">CONTACT</p>
+                <p><a href="mailto:semer98@gmail.com">semer98@gmail.com</a> </p>
+            </div>
+            <div class="logo">
+                <a href="home.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <div class="social-media">
+                <p>SOCIAL MEDIA</p>
+                <a href="https://www.instagram.com/semerr.n/profilecard/?igsh=MXdiY3k0MWkzMG9n" ><img src="images/Instagram.webp" alt="Instagram Logo"></a>
+                <a href="https://www.snapchat.com/add/semernuru22?share_id=nTu8dZlmJRA&locale=en-GB" ><img src="images/snapchat.webp" alt="Snapchat Logo"></a>
+                <a href="https://www.pinterest.com/semer98/?invite_code=e4334ac4da084427a56982c47c799614&sender=735916532768460749" ><img src="images/Pinterest.webp" alt="Pinterest Logo"></a>
+                <a href="https://www.linkedin.com/in/semer-nuru?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_appk" ><img src="images/Linkedin.webp" alt="Linkedin Logo"></a>
+            </div>
         </div>
     </footer>
 </body>
