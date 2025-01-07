@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="css/interests.css">
-    <title>Interests</title>
+    <link rel="stylesheet"  href="css/education.css">
+    <title>Education</title>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <a href="home.html"><img src="images/logo.png" alt="Logo"></a>
+                <img src="images/logo.png" alt="Semer's Portfolio Logo">
             </div>
             <div class="links">
                  <ul>
@@ -24,41 +24,54 @@
         </nav>
     </header>
     <main>
-        <div class="section">
-            <video controls>
-                <source src="video/Planelanding.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div>
-                <h2>Traveling</h2>
-                <p>Traveling is one of my greatest passions, as it will allow me to explore the world's breathtaking monuments and natural wonders. 
-                    From the towering skyscrapers of bustling cities to the serene landscapes of remote countryside, each destination offers a unique experience. 
-                    The thrill of discovering new places, soaking in the beauty of diverse environments, and capturing these moments through photography will make every journey a memorable adventure.</p>
-            </div>
+        <div class="section1">
+            <figure class="carousel-item">
+                <img src="images/sot.jfif" alt="Main building of School of Tomorrow.">
+                <figcaption>School of Tomorrow, established in September 1993, is a premier private institution in Addis Ababa, 
+                    offering quality education from Nursery to Pre-college levels.</figcaption>
+            </figure>
+            <figure class="carousel-item">
+                <img src="images/gcs1.jfif" alt="Entrance of Greek Community School with its logo.">
+                <figcaption>Greek Community School in Addis Ababa, was established in 2015.
+                     It offers a blend of Greek and international educational systems, 
+                    promoting academic achievement and multilingual proficiency.</figcaption>
+            </figure>
+            <figure class="carousel-item">
+                <img src="images/aait1.jfif" alt="AAU-AAiT campus of Addis Ababa University">
+                <figcaption>
+                    Addis Ababa Institute of Technology (AAiT), established in 1953,
+                     is the leading technological institute in Ethiopia,
+                     offering a range of engineering and technology programs.</figcaption>
+            </figure>
         </div>
-        <hr>
-        <div class="section">
-            <article>
-                <h2>Culture</h2>
-                <p>My interest in culture is equally profound, as I love diving into the art, literature, cinema, cuisine, and traditional costumes of different societies. 
-                    There's something incredibly enriching about understanding the way of life of others and appreciating the creative expressions that define their identity. 
-                    Whether it's visiting museums, enjoying international films, savoring exotic dishes, or learning about historical customs, every cultural encounter broadens my horizons and deepens my appreciation for the world's diversity.</p>
-            </article>
-            <img src="images/cinema.jpeg" alt="Cinema">
+        <div class="carousel-controls">
+            <span id="prevBtn" class="arrow left-arrow">&#9664;</span> 
+            <span id="nextBtn" class="arrow right-arrow">&#9654;</span>
         </div>
-        <hr>
-        <div class="section last-section">
-            <img id="bottom-img" src="images/tech2.webp" alt="Technology">
-            <div>
-                <h2>Emerging Technologies</h2>
-                <p>
-                    <ul>
-                        <li>Quantum Computing: Potentially revolutionizing computing power.</li>
-                        <li>3D Printing: Creating medical implants to houses.</li>
-                        <li>Internet of Things (IoT): Connecting everyday devices for efficiency.</li>
-                        <li>Augmented Reality (AR) and Virtual Reality (VR): Transforming gaming, education, and healthcare.</li>
-                    </ul>
-                </p>
+        <div class="carousel-indicators">
+            <span class="indicator active" data-slide-to="0"></span>
+            <span class="indicator" data-slide-to="1"></span>
+            <span class="indicator" data-slide-to="2"></span>
+        </div>
+        <div >
+            <h2 id="subheading">Detailed descriptions:</h2>
+            <div class="section2">
+                <div>
+                    <img src="images/sot1.jfif" alt="A variety of activities at School of Tomorrow, including science labs, a basketball court, and art classes.">
+                    <p>Attending School of Tomorrow from 2007 to 2015 was a remarkable journey, where I thrived in a nurturing academic environment, built lasting friendships, and engaged in numerous extracurricular activities. 
+                        Those years were characterized by stimulating lessons, dedicated teachers, and a profound sense of community.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/gcs.jfif" alt="Greek Community School football field with visible goalposts.">
+                    <p>Transitioning to Greek Community School from 2015 to 2022, my high school years were enriched with cultural immersion and academic rigor. 
+                        The multilingual learning environment, active participation in school events, and connections with diverse peers were truly inspiring.</p>
+                </div>
+                <div>
+                    <img src="images/aait.jfif" alt="Lush greenery and walkways on AAiT campus.">
+                    <p> Currently, as a student at Addis Ababa Institute of Technology (AAiT), I am thoroughly enjoying a vibrant university life. The state-of-the-art technology programs, collaborative projects, and dynamic campus activities are incredibly exciting. 
+                        Being surrounded by enthusiastic peers and esteemed mentors is significantly shaping my future in the best possible way.</p>
+                </div>
             </div>
         </div>
     </main>
@@ -66,10 +79,10 @@
         <div class="footer-content">
             <div class="contact">
                 <p id="text">CONTACT</p>
-                <p><a href="mailto:semer98@gmail.com">semer98@gmail.com</a> </p>
+                <p><a href="mailto:semer98@gmail.com">semer98@gmail.com</a></p>
             </div>
             <div class="logo">
-                <a href="home.html"><img src="images/logo.png" alt="Logo"></a>
+                <img src="images/logo.png" alt="Semer's Portfolio Logo">
             </div>
             <div class="social-media">
                 <p>SOCIAL MEDIA</p>
@@ -80,5 +93,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/education.js"></script>
 </body>
 </html>
